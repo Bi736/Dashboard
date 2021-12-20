@@ -1,0 +1,995 @@
+
+/*----------------------------------------position sittings-------------------------------*/
+
+body{
+    scroll-behavior: smooth;
+}
+
+
+.next-part{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.progress-right{
+    display: flex;
+    flex-direction: column;
+}
+
+.first-part{
+    background-color:rgba(46,44,116,255) ;
+}
+
+
+/*--------------------------------------------*/
+.logo img {
+    height: 70px;
+    width: 200px;
+    flex-basis: 15%;
+    color: rgb(195, 0, 255);
+}
+.icon {
+    flex-basis: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.facebook {
+    margin: 0 30px;
+}
+
+/*---------menu-------------*/
+
+span {
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: red;
+}
+
+.icon {
+    flex-basis: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+
+/*-----------------------------------------------------------correction---------------------------------------------*/
+
+/*--------------background-------------------*/
+
+
+.head {
+    background:white;
+}
+
+
+/*------------------------------contrac form--------------------------*/
+
+.contrac-form {
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    border: none;
+
+    position: sticky;
+    top: 0px;
+    z-index: 50;
+    background-color: white;
+}
+
+.top {
+    background: linear-gradient(160deg,   rgb(0, 0, 0)50%, rgba(46,44,116,255) 50%);
+    border-radius: 10px;
+    
+}
+h2#dev {
+    color: white;
+}
+span#bs {
+    color: white;
+}
+h2#mas {
+    color: white;
+}
+
+.logo span {
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(204, 0, 0) ;
+    font-weight: 600;
+    margin: 0px 5px;
+}
+.logo {
+    margin: 0px 0px;
+    padding: 10px 15px;
+}
+
+.logo span {
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(204, 0, 0) ;
+    font-weight: 600;
+    margin: 0px 5px;
+}
+.logo {
+    margin: 0px 0px;
+    padding: 10px 15px;
+}
+
+a#face1 {
+    text-decoration: none;
+    padding: 8px 30px;
+    color:gray ;
+    background-color: rgba(204,237,0,255);
+    border-radius: 4px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    transition: 1s;
+}
+
+a#face1:hover{
+   /* box-shadow:0 0 5px rgb(102, 102, 255) ,0 0 15px rgb(102, 102, 255),0 0 20px rgb(102, 102, 255) ;*/
+    background-color:rgb(133, 153, 0) ;
+    color:white ;
+}
+
+
+a#face2 {
+    text-decoration: none;
+    padding: 8px 30px;
+    color:gray ;
+    background-color: rgba(204,237,0,255);
+    border-radius: 4px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    transition: 1s;
+}
+
+a#face2:hover{
+    /*box-shadow:0 0 5px rgb(255, 0, 255) ,0 0 15px rgb(255, 0, 255),0 0 20px  rgb(255, 0, 255);*/
+    background-color:rgb(133, 153, 0) ;
+    color:white ;
+}
+
+
+a#face3 {
+    text-decoration: none;
+    padding: 8px 30px;
+    color:gray ;
+    background-color:rgba(204,237,0,255) ;
+    border-radius: 4px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    transition: 1s;
+}
+
+a#face3:hover{
+   /*box-shadow:0 0 5px  rgb(102, 255, 255),0 0 15px rgb(102, 255, 255),0 0 20px  rgb(102, 255, 255);*/
+    background-color:rgb(133, 153, 0) ;
+    color:white ;
+}
+
+
+
+
+
+
+i#face-one {
+    font-size: 22px;
+    padding: 8px 25px;
+    background-color:rgba(204,237,0,255) ;
+    color:gray ;
+    border-radius: 4px;
+    transition: 1s;
+}
+
+i#face-two {
+    font-size: 22px;
+    padding: 8px 25px;
+    background-color:rgba(204,237,0,255) ;
+    color:gray ;
+    border-radius: 4px;
+    transition: 1s;
+}
+
+i#face-three {
+    font-size: 22px;
+    padding: 8px 20px;
+    background-color:rgba(204,237,0,255) ;
+    color:gray ;
+    border-radius: 4px;
+    transition: 1s;
+}
+
+
+i#face-one:hover{
+   /* box-shadow:0 0 5px  rgba(16,138,240,255),0 0 10px rgba(16,138,240,255),0 0 15px rgba(16,138,240,255);*/
+    background: rgb(133, 153, 0);
+    color:white ;
+}
+
+i#face-two:hover{
+    /*box-shadow:0 0 5px  rgb(0, 179, 0),0 0 10px rgb(0, 179, 0),0 0 15px rgb(0, 179, 0);*/
+    background:rgb(133, 153, 0) ;
+    color:white ;
+}
+
+i#face-three:hover{
+    /*box-shadow:0 0 5px  rgb(255, 0, 0),0 0 10px rgb(255, 0, 0),0 0 15px rgb(255, 0, 0);*/
+    background: rgb(133, 153, 0);
+    color:white ;
+}
+
+
+
+/*--------------------------menu--------------------------*/
+
+.menu h2 {
+    display: inline-block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+.menu{
+    background-color: white;
+    padding: 30px 20px;
+    margin: 0;
+}
+
+
+/*--------------------------top menu----------------------------*/
+
+
+.up-top{
+   grid-column: 1/5;
+    width: 100%;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+
+   background-color: rgb(59, 59, 59);
+   padding: 15px 0px ;
+}
+
+.up-top-p p{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.up-top-menu{
+   
+
+}
+.up-top-menu ul{
+    display: flex;
+    align-items: center;
+}
+.up-top-menu ul li{
+    margin: 0px 50px;
+    list-style: none;
+    position: relative;
+}
+.up-top-menu ul li a{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+font-size: 13px;
+}
+
+.up-top-menu{
+   
+}
+
+.dropdown{
+    position: absolute;
+    top: 20px;
+    left: 0;
+}
+
+.up-top-menu ul li ul{
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(255, 204, 255) ;
+    padding: 10px 10px;
+    height: 450px;
+    width: 210px;
+
+    overflow-y: scroll;
+    display: none;
+    z-index: 55;
+}
+.up-top-menu ul li:hover .dropdown{
+   display: block;
+}
+
+.up-top-menu ul li ul li{
+    margin: 12px 10px;
+}
+
+.up-top-menu ul li ul li a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    margin: 0px 3px;
+    border-radius: 8px;
+    color: black;
+}
+.up-top-menu ul li ul li::after{
+    content: "";
+    display: block;
+    height: 2px;
+    width: 0px;
+    background-color: grey;
+    margin-top: 6px;
+    transition: 1s;
+}
+.up-top-menu ul li ul li:hover::after{
+width: 150px;
+}
+
+
+
+i.fas.fa-check-circle {
+    color:rgb(51, 51, 255) ;
+    font-size: 12px;
+}
+
+.downbtn{
+    text-align: center;
+    background-color:rgb(59, 59, 59) ;
+}
+.dropdown ul{
+
+}
+
+.downbtn ul li{
+color: white;
+
+}
+
+.downbtn ul li a{
+
+    font-size: 25px;
+    color: white;
+}
+.downbtn h4{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    padding: 8px 0px;
+}
+
+
+/*----------------------------------wave-----------------------------*/
+
+svg#wave {
+    background-color: white;
+}
+
+/*---------------------------------------bg----------------------------------*/
+
+.bg{
+display: flex;
+}
+.bg img{
+    height: 500px;
+    width: 750px;
+}
+
+
+.next-bgg{
+    position: relative;
+}
+.opacity{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 500px;
+    width: 750px;
+    background: linear-gradient(to bottom, rgba(26, 83, 255,.6), rgba(0,144,161,255));
+    z-index: 10;
+    
+}
+
+
+.opacity::before{
+    content: "";
+    height: 10px;
+    width: 200px;
+    background-color: goldenrod;
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    transition: 1s;
+    z-index: 15;
+}
+.opacity::after{
+    content: "";
+    height: 200px;
+    width: 10px;
+    background-color: goldenrod;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 1s;
+    z-index: 15;
+}
+
+.opacity:hover::before{
+    width: 750px;
+}
+.opacity:hover::after{
+    height: 500px;
+}
+
+.opacity:hover .layer-one::before{
+    display: block;
+    height: 500px;
+    width: 750px;
+}
+
+
+.opacity h1{
+    background-color: transparent;
+    color: white;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 40px;
+    z-index: 15;
+}
+.opacity h2{
+    font-size: 35px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-top: 40px;
+    z-index: 15;
+}
+
+.opacity h3{
+    font-size: 25px;
+    color: red;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    z-index: 15;
+}
+
+.vedio{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.vedio i{
+    font-size: 50px;
+    color:white;
+    background-color: transparent;
+    transition: 1s;
+}
+.vedio i:hover{
+    color: red;
+}
+.vedio-p a{
+    margin: 0px 15px;
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    transition: 1s;
+}
+.vedio-p a:hover{
+    color: red;
+}
+
+.next-bg{
+    position: relative;
+
+}
+
+.opacty{
+    position: absolute;
+    top: 0;
+    left: 15px;
+    height: 300px;
+    width: 300px;
+    background: linear-gradient(to bottom, rgba(26, 83, 255,.4), rgba(0,144,161,255));
+}
+
+
+.opacty::before{
+    content: "";
+    height: 10px;
+    width: 50px;
+    background-color: goldenrod;
+    display: block;
+    transition: 1s;
+}
+.opacty::after{
+    content: "";
+    height: 50px;
+    width: 10px;
+    background-color: goldenrod;
+    display: block;
+    transition: 1s;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.opacty:hover::before{
+width: 300px;
+}
+.opacty:hover::after{
+height: 300px;
+}
+
+
+
+
+.opacty h1{
+    margin-top: 15px;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    background-color: transparent;
+    color:white;
+}
+
+.opacty h2{
+    width: 90%;
+    display: block;
+    margin: auto;
+    margin-top: 75px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    background-color: transparent;
+   color:coral ;
+}
+.opacty h3{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.next-bg img{
+    height: 300px;
+    width: 300px;
+    margin: 0px 15px;
+    border-radius: 5px;
+}
+
+
+.total-project {
+    background-color: rgba(0,144,161,255);
+    border-radius: 5px;
+    margin: 10px auto;
+    height: 192px;
+    width: 300px;
+}
+
+h2.total {
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+h1.\35 2 {
+    background-color: transparent;
+    font-size: 50px;
+    color: cornsilk;
+}
+
+
+/*------------------------all project image-----------------------*/
+.up-arrow{
+    text-align: center;
+}
+.up-arrow a{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
+.pic.landing {
+    position: relative;
+}
+
+.pic.landing {
+    width: 420px;
+    height: 350px;
+}
+
+.photo {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 15px;
+    grid-row-gap: 50px;
+    margin: 0px 22px;
+    margin-top: 80px;
+}
+
+
+.pic img{
+    width: 420px;
+    height: 350px;
+    border: 2px solid white; 
+}
+
+
+.layer{
+    width: 420px;
+    height: 350px;
+    display: block;
+    z-index: 15;
+    position: relative;
+}
+
+.layer-txt {
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;  
+    background-color: rgba(0,0,0,.7);
+    display: none;
+    z-index: 15;
+}
+
+.layer::before{
+    content: "";
+    height: 7px;
+    width: 50px;
+    background-color: goldenrod;
+    z-index: 20;
+    transition: 1s;
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+
+.layer::after{
+    content: "";
+    height: 50px;
+    width: 7px;
+    background-color: goldenrod;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 1s;
+    display: block;
+    z-index: 20;
+}
+
+.layer:hover.layer::before{
+    width: 420px;
+    
+}
+
+.layer:hover.layer::after{
+height: 350px;
+
+}
+
+.layer:hover .layer-txt{
+    display: block;
+    width: 420px;
+    height: 350px;
+    visibility: visible;
+}
+
+
+
+
+h4#it {
+    margin-top: 100px;
+    font-size: 20px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+h5#below {
+    margin-top: 25px;
+    font-size: 15px;
+    font-family: 'Kanit', sans-serif;
+    color:lightgrey ;
+    font-weight: 300;
+}
+
+
+a#click {
+    display: inline-block;
+    margin: 15px auto;
+    text-align: center;
+    font-size: 25px;
+    padding: 8px 40px;
+    background-color: #fe4c50;
+    color: white;
+    border-radius: 20px;
+    transition: .5s;
+    box-shadow: 2px 2px 8px rgba(0,0,0,.3);
+    text-decoration: none;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: .5s;
+    border: 1px solid black;
+}
+
+
+/*-----------------------------------------middle section--------------------------------*/
+
+.middle{
+
+}
+
+.middle-section{
+   position: relative;
+}
+
+.middle-bg{
+    height: 800px;
+    width: 100%;
+    background-size: cover;
+}
+.middle-bg img{
+    height: 800px;
+    width: 100%;
+}
+
+.middle-opacity{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 800px;
+    width: 100%;
+    background: rgba(0, 0, 179,.6);
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.middle-txt{
+    background-color: transparent;
+    text-align: left;
+    margin: 50px 60px;
+
+    flex-basis: 30%;
+   
+}
+
+.middle-right {
+    flex-basis: 70%;
+    margin: 50px 60px;
+}
+
+h1.web {
+    background-color: transparent;
+    color: salmon;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p.are {
+    margin: 20px 0px;
+    color: white;
+    line-height: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+h1.what {
+    background-color: transparent;
+    color: salmon;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p.the {
+    margin: 20px 0px;
+    color: white;
+    line-height: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+.mid-h1{
+       
+    
+}
+.xyz{
+    margin-top: 5px;
+}
+
+h1.xx {
+    background-color: transparent;
+    text-align: left;
+    background-color: salmon;
+    color: white;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 40px 0px;
+    font-size: 25px;
+}
+
+h1.xy {
+    background-color: transparent;
+    text-align: left;
+    display: inline-block;
+    font-size: 15px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+
+/*---------------------------------------footer---------------------------------------------*/
+
+.top {
+    display: inline-block;
+    background: linear-gradient(160deg,   rgb(0, 0, 0)50%, rgba(46,44,116,255) 50%);
+    border-radius: 10px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgb(9, 126, 126) ;
+}
+
+.left{
+
+}
+.left ul{display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.left ul li{
+    list-style: none;
+    margin: 20px 0px;
+}
+.left ul li i{
+    font-size: 15px;
+    
+}
+.left ul li p{
+    font-size: 15px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    margin-top: 6px;
+}
+.left ul li h5{
+    color: red;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 6px;
+   font-weight: 500;
+}
+
+li#road {
+    margin-right: 75px;
+}
+
+.left{
+    flex-basis: 40%;
+}
+.right{flex-basis: 60%;
+    text-align: center;
+    
+}
+
+.right h4{
+    font-size: 22px;
+    text-align: center;
+    color:red ;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.right p {
+    margin-top: 5px;
+    width: 100%;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    word-spacing: 3px;
+    line-height: 22px;
+}
+
+.right-menu{
+    margin: 20px 0px;
+}
+.right ul{display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.right ul li{list-style: none;
+    font-size: 25px;
+    margin: 0px 20px;
+ 
+}
+
+.right ul li i{
+    color: red;
+
+}
+.right ul li a{color: white;
+    font-family: 'Roboto', sans-serif;
+
+}
+.footer-last p{
+    color: rgb(238, 198, 80);
+    font-family: 'Roboto', sans-serif;
+}
+
+
+i#face {
+color:rgba(4,101,226,255) ;
+padding: 10px 12px;
+background-color: white;
+border-radius: 20px;
+}
+
+i#twi {
+color:rgba(29,161,242,255) ;
+padding: 10px 12px;
+background-color: white;
+border-radius: 20px;
+}
+
+i#ins {
+color:rgba(211,47,137,255) ;
+padding: 10px 12px;
+background-color: white;
+border-radius: 20px;
+}
+
+i#git {
+color: black;
+padding: 10px 12px;
+background-color: white;
+border-radius: 20px;
+}
+i#location {
+padding: 5px 6px;
+background-color: white;
+color: red;
+border-radius: 4px;
+}
+
+
+i#phone {
+    padding: 5px 6px;
+    background-color: white;
+    color: red;
+    border-radius: 4px;
+}
+
+
+i#letter {
+    padding: 5px 6px;
+    background-color: white;
+    color: red;
+    border-radius: 4px;
+
+}
+
+
+

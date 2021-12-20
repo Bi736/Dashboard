@@ -1,0 +1,369 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width:992px){
+   
+    .facebook {
+        margin: 0 15px;
+    }
+    a#face {
+        font-size: 14px;
+        text-decoration: none;
+        padding: 8px 20px;
+        color: white;
+        background-color: rgb(195, 0, 255);
+        border-radius: 20px;
+        transition: 1s;
+    }
+
+    i#face {
+        font-size: 18px;
+        padding: 8px 30px;
+        background-color: rgb(195, 0, 255);
+        color: white;
+        border-radius: 20px;
+        transition: .5s;
+        box-shadow: 2px 2px 8px rgba(0,0,0,.3);
+    }
+    .logo img {
+        height: 60px;
+        width: 200px;
+        flex-basis: 15%;
+        color: rgb(195, 0, 255);
+    }
+    .identity ul li {
+        color: black;
+        margin: 15px 10px;
+        list-style: none;
+        font-family: 'Kanit', sans-serif;
+        font-size: 15px;
+        font-weight: 300;
+    }
+    .my-pic-bg-one img {
+        height: 200px;
+        width: 350px;
+        opacity: .2;
+    }
+
+    #photo {
+        height: 170px;
+        width: 170px;
+        border: 2px solid black;
+        border-radius: 50%;
+    }
+    
+
+    .photo {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-column-gap: 15px;
+        grid-row-gap: 50px;
+        margin-top: 80px;
+    }
+
+    .myself {
+        grid-column: 2/6;
+        grid-row: 4;
+    }
+
+    .layer {
+        background: transparent;
+        height: 250px;
+        width: 400px;
+        overflow: hidden;
+        position: absolute;
+        top: 0;
+        left: 20px;
+        transition: 1s;
+        border-radius: 10px;
+    }
+
+}
+
+@media only screen and (max-width:768px){
+
+    .contrac-form {
+        background-color: transparent;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0;
+        border: none;
+        flex-direction: column;
+    }
+    .head {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        grid-column-gap: 20px;
+        grid-row-gap: 20px;
+        background: linear-gradient(to top,rgba(255, 255, 204,.3) ,rgba(5, 252, 5, 0.2) );
+    }
+    .progress {
+        grid-column: 1 / 5;
+    }
+    .myself {
+        grid-column: 1/5;
+        grid-row: 5;
+    }
+    
+    .my-pic-bg-one img {
+        height: 200px;
+        width: 650px;
+        opacity: .2;
+    }
+    .identity ul li {
+        color: black;
+        margin: 15px 30px;
+        list-style: none;
+        font-family: 'Kanit', sans-serif;
+        font-size: 15px;
+        font-weight: 300;
+    }
+    .photo {
+        display: grid;
+        grid-template-columns: auto;
+        grid-column-gap: 15px;
+        grid-row-gap: 50px;
+        margin-top: 80px;
+    }
+    .layer {
+        background: transparent;
+        height: 250px;
+        width: 400px;
+        overflow: hidden;
+        position: absolute;
+        top: 0;
+        left: 160px;
+        transition: 1s;
+        border-radius: 10px;
+    }
+    .icon {
+        margin-top: 20px;
+        flex-basis: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    .project-link {
+        margin-top: 50px;
+        grid-row: 2 / 5;
+        grid-column: 1/5;
+    }
+
+
+}
+
+
+@media only screen and (max-width:576px){
+
+    .facebook {
+        margin: 0 5px;
+    }
+    a#face {
+        font-size: 12px;
+        text-decoration: none;
+        padding: 5px 15px;
+        color: white;
+        background-color: rgb(195, 0, 255);
+        border-radius: 20px;
+        transition: 1s;
+    }
+    i#face {
+        font-size: 15px;
+        padding: 5px 25px;
+        background-color: rgb(195, 0, 255);
+        color: white;
+        border-radius: 20px;
+        transition: .5s;
+        box-shadow: 2px 2px 8px rgba(0,0,0,.3);
+    }
+
+    .icon {
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+    }
+    .my-pic-bg-one img {
+        height: 200px;
+        width: 450px;
+        opacity: .2;
+    }
+    .identity ul li {
+        color: black;
+        margin: 15px 30px;
+        list-style: none;
+        font-family: 'Kanit', sans-serif;
+        font-size: 14px;
+        font-weight: 300;
+    }
+    .identity ul li i {
+        color: rgb(168, 61, 192);
+        margin: 0 10px;
+        font-size: 15px;
+    }
+    .pro h1 {
+        font-size: 25px;
+        color: white;
+    }
+    h5#ago {
+        color: black;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 17px;
+        font-weight: 500;
+        padding: 10px 0px;
+    }
+    h1#wb {
+        display: inline-block;
+        background-color: transparent;
+        color: rgb(218, 66, 40);
+        width: 0ch;
+        white-space: nowrap;
+        overflow: hidden;
+        animation-name: txt;
+        animation-timing-function: linear;
+        animation-delay: .2s;
+        animation-iteration-count: infinite;
+        animation-duration: 5s;
+        font-size: 25px;
+    }
+    h2#hey {
+        display: inline-block;
+        word-spacing: 5px;
+        font-size: 18px;
+    }
+    h1#web {
+        display: inline-block;
+        background-color: transparent;
+        margin: -10px 10px;
+        color: rgb(218, 66, 40);
+        width: 0ch;
+        white-space: nowrap;
+        overflow: hidden;
+        animation-name: text;
+        animation-timing-function: linear;
+        animation-delay: .2s;
+        animation-iteration-count: infinite;
+        animation-duration: 5s;
+        font-size: 24px;
+    }
+
+    h1#skill {
+        background-color: transparent;
+        color: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        border-bottom: 4px solid rgb(161, 74, 58);
+        display: inline-block;
+        font-size: 25px;
+    }
+    .project-image h1 {
+        color: black;
+        background-color: transparent;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        border-bottom: 4px solid rgb(195, 0, 255);
+        display: inline-block;
+        word-spacing: 12px;
+        font-size: 25px;
+    }
+
+
+}
+
+@media only screen and (max-width:414px){
+
+    .my-pic-bg-one img {
+        height: 200px;
+        width: 250px;
+        opacity: .2;
+    }
+    #photo {
+        height: 150px;
+        width: 150px;
+        border: 2px solid black;
+        border-radius: 50%;
+    }
+    .pic img {
+        height: 220px;
+        width: 350px;
+        border: 2px solid black;
+        border-radius: 10px;
+    }
+    .layer {
+        background: transparent;
+        height: 220px;
+        width: 350px;
+        overflow: hidden;
+        position: absolute;
+        top: 0;
+        left: 22px;
+        transition: 1s;
+        border-radius: 10px;
+    }
+    h2#hey {
+        display: inline-block;
+        word-spacing: 5px;
+        font-size: 13px;
+    }
+    h1#web {
+        display: inline-block;
+        background-color: transparent;
+        margin: -10px 10px;
+        color: rgb(218, 66, 40);
+        width: 0ch;
+        white-space: nowrap;
+        overflow: hidden;
+        animation-name: text;
+        animation-timing-function: linear;
+        animation-delay: .2s;
+        animation-iteration-count: infinite;
+        animation-duration: 5s;
+        font-size: 18px;
+    }
+    .facebook {
+        margin: 0 4px;
+    }
+    a#face {
+        font-size: 10px;
+        text-decoration: none;
+        padding: 5px 10px;
+        color: white;
+        background-color: rgb(195, 0, 255);
+        border-radius: 20px;
+        transition: 1s;
+    }
+    i#face {
+        font-size: 12px;
+        padding: 5px 18px;
+        background-color: rgb(195, 0, 255);
+        color: white;
+        border-radius: 20px;
+        transition: .5s;
+        box-shadow: 2px 2px 8px rgba(0,0,0,.3);
+    }
+    .logo img {
+        height: 50px;
+        width: 170px;
+        flex-basis: 15%;
+        color: rgb(195, 0, 255);
+    }
+    .project-link {
+        margin-top: 0px;
+        grid-row: 2 / 5;
+        grid-column: 1/5;
+    }
+    h1 {
+        background-color: rgb(195, 0, 255);
+        text-align: center;
+        padding: 5px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 20px;
+    }
+
+
+
+}

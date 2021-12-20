@@ -1,0 +1,638 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: white;
+}
+
+/*--------grid-----------*/
+
+.cmn{
+    background-color: red;
+    padding: 15px;
+    border: 1px solid black;
+    margin: 10px 10px;
+}
+
+/*----------------------------------------------contraac form--------------------------------------------------------*/
+
+.logo img{
+    height: 70px;
+    width: 80px;
+    flex-basis: 10%;
+    color:rgb(195, 0, 255) ;
+}
+.icon{
+    flex-basis: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.facebook {
+    margin: 0 40px;
+}
+h5#face {
+    font-size: 15px;
+    padding: 8px 20px;
+    background-color:rgb(195, 0, 255) ;
+    color: white;
+    border-radius: 20px;
+    transition: .5s;
+    box-shadow: 2px 2px 8px rgba(0,0,0,.3);
+    font-family: 'Kanit', sans-serif;
+    font-weight: 400;
+    transition: 1s;
+}
+
+
+
+
+.logo h2 {
+    display: inline-block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+
+
+
+/*---------------------top----------------------*/
+
+h2#hey {
+    display: inline-block;
+    word-spacing: 8px;
+    font-family: 'Roboto', sans-serif;
+}
+h1#web {
+    display: inline-block;
+    background-color: transparent;
+    margin: -5px 10px;
+    color:black;
+   
+    background-color:rgb(204, 255, 255)  ;
+
+    border-radius: 6px;
+    font-size: 20px;
+    font-family: 'Rampart One', cursive;
+    
+    width: 0ch;
+    white-space: nowrap;
+    overflow: hidden;
+    animation-name: text;
+
+    animation-timing-function: linear;
+    animation-delay: .1s;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+
+}
+
+@keyframes text{
+    0%{
+        width: 0ch;
+    }
+    50%{
+        width: 15ch;
+    }
+}
+
+
+
+.menu{
+    background-color: transparent;
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+
+
+
+/*------project image menu------*/
+
+
+.project-link{
+border: 1px solid rgb(195, 0, 255);
+    background-color: transparent;
+    color: white;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+    border-radius: 10px;
+}
+
+h1 { background-color:rgb(195, 0, 255) ;
+    text-align: center;
+    padding: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+}
+.project-menu {
+    margin: 30px 30px;
+}
+.project-menu{
+
+}
+.project-menu ul{
+
+}
+
+.project-menu ul li a{text-decoration: none;
+    color: black;
+
+}
+
+
+
+.project-menu {
+    
+}
+.project-menu ul li {
+    list-style: none;
+    margin: 20px;
+}
+
+i#check {
+    margin: 0px 5px;
+    color: rgb(150, 121, 158);
+    font-size: 22px;
+}
+.project-menu ul li a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Kanit', sans-serif;
+}
+
+
+.project-menu ul li a::after{
+    content: "";
+    width: 0%;
+    height: 2px;
+   background-color: rgb(189, 6, 6);
+    display: block;
+    margin: auto;
+    transition: .5s;
+}
+
+.project-menu ul li a:hover::after{
+    width: 100%;
+}
+
+
+
+
+
+/*-----------------------PROGRESS------------------------*/
+
+.progress.cmn {
+    background-color:rgba(0,144,161,255) ;
+    border-radius: 5px;
+    margin: 0;
+}
+.progresss-right {
+    width: 265px;
+    height: 480px;
+    margin-bottom: 20px;
+}
+
+
+.all-skill{
+
+}
+.all-skill ul{
+
+}
+.all-skill ul li{
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+}
+.all-skill ul li {
+    list-style: none;
+    color:rgb(200, 211, 233) ;
+    margin: 22px 20px;
+    position: relative;
+    font-family: 'Kanit', sans-serif;
+}
+
+.all-skill ul li::before{
+    content: "";
+    position: absolute;
+    top: calc(100% + 5px);
+    left: 0;
+    background-color: white;
+    width: 100%;
+    height: 12px;
+    border-radius: 30px;
+    border: 1px solid black;
+}
+.all-skill ul li::after{
+    content: "";
+    position: absolute;
+    top: calc(100% + 5px);
+    left: 0;
+    background-color:white;
+    width: 0;
+    height: 12px;
+    border-radius: 30px;
+    border: 1px solid black;
+    
+
+
+
+    animation-duration: 8s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-iteration-count:inherit;
+    animation-direction:forward;
+    animation-fill-mode: forwards;
+}
+
+.all-skill ul li.html::after{
+    animation-name: html;
+    background-color: rgb(255, 0, 0);
+}
+
+.all-skill ul li.css::after{
+    animation-name: css;
+    background-color:yellow;
+}
+
+.all-skill ul li.js::after{
+    animation-name: js;
+    background-color: black;
+}
+
+.all-skill ul li.bt::after{
+    animation-name: bt;
+    background-color:green;
+}
+
+.all-skill ul li.eng::after{
+    animation-name: eng;
+    background-color: blue;
+}
+
+
+@keyframes html{
+    to{
+        width: 75%;
+    }
+}
+@keyframes css{
+    to{
+        width: 85%;
+    }
+}
+@keyframes js{
+    to{
+        width: 60%;
+    }
+}
+@keyframes bt{
+    to{
+        width: 35%;
+    }
+}
+@keyframes eng{
+    to{
+        width: 73%;
+    }
+}
+
+
+h1#skill {
+    background-color: transparent;
+    color:white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-bottom: 3px solid coral;
+    display: inline-block;
+    font-size: 22px;
+}
+
+.skil {
+    text-align: center;
+}
+.all-skill {
+    
+}
+
+
+
+
+/*-------------------------------improvement----------------------------*/
+
+
+.myself {
+    background-color:rgba(0,144,161,255) ;
+    border-radius: 5px;
+    margin: 10px 0px;
+    height: 192px;
+}
+
+
+.pro h1{
+    background-color: transparent;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+}
+
+.his{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+h5#ago {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    border-bottom: 2px solid coral;
+    font-size: 17px;
+    font-weight: 500;
+    padding: 2px 0px;
+}
+.count {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 30px;
+    font-weight: 900;
+
+}
+.number {
+    border: 1px solid green;
+    border-radius: 5px;
+    background-color: white;
+    margin-top: 20px;
+}
+
+h1#wb {
+    display: block;
+    margin: auto;
+    background-color: transparent;
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+
+    
+    color: rgb(218, 66, 40);
+    
+  
+}
+
+
+
+
+
+
+
+
+/*------project image-------*/
+
+.project-image{
+    border: none;
+    background-color:rgba(46,44,116,255) ;
+    margin: 0;
+    padding: 30px 0px;
+    position: relative;
+}
+.squre-dgn{
+    position: absolute;
+    top: 5%;
+    z-index: 0;
+    left: 20%;
+}
+
+
+.project-image h1{
+    color: white;
+    background-color: transparent;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-bottom: 4px solid white;
+    display: inline-block;
+word-spacing: 12px;
+}
+
+.pic{
+
+}
+
+.txt {
+    text-align: center;
+}
+
+
+
+a#click:hover{
+    transform: scale(1.05);
+}
+
+.pic{
+    position: relative;
+}
+
+.pic {
+    position: relative;
+    text-align: center;
+}
+
+
+
+.top-content {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.top-content label {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+   border: 1px solid black;
+   padding: 10px 30px;
+
+    color: black;
+    font-weight: 600;
+    border-radius: 5px;
+    background-color: white;
+}
+
+
+
+
+#check1:checked ~ .project-image .photo .pic{
+    opacity: 1;
+    transform: scale(1);
+    position: relative;
+    transition: 0s;
+}
+
+
+
+#check2:checked ~ .project-image .photo .landing{
+    opacity: 1;
+    transform: scale(1);
+    position: relative;
+    transition: 0s;
+}
+
+#check2:checked ~ .project-image .photo .simple,
+#check2:checked ~ .project-image .photo .ideal,
+#check2:checked ~ .project-image .photo .java{
+    opacity: 0;
+    display: none;
+    transform: scale(0);
+    position: absolute;
+}
+
+
+
+
+#check3:checked ~ .project-image .photo .simple{
+    opacity: 1;
+    transform: scale(1);
+    position: relative;
+    transition: 0s;
+}
+
+#check3:checked ~ .project-image .photo .landing,
+#check3:checked ~ .project-image .photo .ideal,
+#check3:checked ~ .project-image .photo .java{
+    opacity: 0;
+    display: none;
+    transform: scale(0);
+    position: absolute;
+}
+
+
+
+#check4:checked ~ .project-image .photo .ideal{
+    opacity: 1;
+    transform: scale(1);
+    position: relative;
+    transition: 10s;
+}
+
+#check4:checked ~ .project-image .photo .landing,
+#check4:checked ~ .project-image .photo .simple,
+#check4:checked ~ .project-image .photo .java{
+    opacity: 0;
+    display: none;
+    transform: scale(0);
+    position: absolute;
+}
+
+
+
+#check5:checked ~ .project-image .photo .java{
+    opacity: 1;
+    transform: scale(1);
+    position: relative;
+    transition: 10s;
+}
+
+#check5:checked ~ .project-image .photo .landing,
+#check5:checked ~ .project-image .photo .simple,
+#check5:checked ~ .project-image .photo .ideal{
+    opacity: 0;
+    display: none;
+    transform: scale(0);
+    position: absolute;
+}
+
+
+/*----btn----*/
+
+#check1:checked ~ .project-image .top-content label#btn-one{
+    background-color:#fe4c50;
+    color:white;
+}
+
+#check2:checked ~ .project-image .top-content label#btn-two{
+    background-color:#fe4c50;
+    color: white;
+}
+
+#check3:checked ~ .project-image .top-content label#btn-three{
+    background-color:#fe4c50;
+    color: white;
+}
+
+#check4:checked ~ .project-image .top-content label#btn-four{
+    background-color:#fe4c50;
+    color: white;
+}
+
+
+#check5:checked ~ .project-image .top-content label#btn-five{
+    background-color:#fe4c50;
+    color: white;
+}
+
+
+input{
+   display: none;
+}
+
+
+
+
+
+
+/*------my profile------*/
+
+.my-pic{
+
+}
+.my-pic-bg{text-align: center;
+    position: relative;
+
+}
+.my-pic-bg-one img{
+    height: 250px;
+    width: 350px;
+    opacity: .2;
+}
+
+#photo{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black ;
+    border-radius: 50%;
+    
+}
+.phot{
+    position: absolute;
+    top: 20px;
+    left: 0;
+    text-align: center;
+    width: 100%;
+  
+    display: inline-block;
+}
+
+.identity{
+
+}
+.identity ul{
+
+}
+.identity ul li{color: black;
+    margin: 15px 10px;
+    list-style: none;
+    font-family: 'Kanit', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+
+}
+.identity ul li i{
+color:rgb(168, 61, 192)  ;
+margin: 0 10px;
+font-size: 20px;
+}
+
+
+
