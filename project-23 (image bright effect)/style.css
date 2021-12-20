@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(78, 77, 77);
+}
+.head{
+
+}
+.head .inner{
+
+}
+.head .inner .image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+
+}
+.head .inner .image .img{
+margin: 0px 15px;
+}
+
+.head .inner .image .one img{
+width: 400px;
+height: 400px;
+border: 1px solid black;
+position: relative;
+z-index: 0;
+opacity: .9;
+}
+
+.head .inner .image .two img{
+    width: 400px;
+    height: 400px;
+    border: 1px solid black;
+    position: relative;
+    z-index: 0;
+    opacity: .9;
+}
+    
+.head .inner .image .three img{
+    width: 400px;
+    height: 400px;
+    border: 1px solid black;
+    z-index: 0;
+    opacity: .9;
+}    
+
+.head .inner .image .one{
+    position: relative;
+    transition: .5s;
+}
+
+
+
+.head .inner .image .one .layer-one{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background: linear-gradient(220deg,rgb(242, 242, 242) 10%,rgb(217, 217, 217,0) 20%);
+    transition: .5s;
+  
+}
+
+.head .inner .image .one:hover .layer-one{
+    background: linear-gradient(220deg,rgb(242, 242, 242,.4) 40%,rgba(242, 242, 242,0) 50%);
+}
+
+.head .inner .image .one:hover{
+    transform: scale(1.05);
+}
+
+
+.head .inner .image .two{
+    position: relative;
+    transition: .5s;
+}
+
+
+.head .inner .image .two .layer-two{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+   background: linear-gradient(220deg,rgb(242, 242, 242) 10%,rgb(217, 217, 217,0) 20%);
+    transition: .5s;
+  
+}
+
+.head .inner .image .two:hover .layer-two{
+    background: linear-gradient(220deg,rgb(242, 242, 242,.4) 40%,rgba(242, 242, 242,0) 50%);
+  
+}
+
+.head .inner .image .two:hover{
+    transform: scale(1.05);
+}
+
+
+
+.head .inner .image .three{
+    position: relative;
+    transition: .5s;
+}
+
+
+.head .inner .image .three .layer-three{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+   background: linear-gradient(220deg,rgb(242, 242, 242) 10%,rgb(217, 217, 217,0) 20%);
+    transition: .5s;
+  
+}
+
+.head .inner .image .three:hover .layer-three{
+    background: linear-gradient(220deg,rgb(242, 242, 242,.4) 40%,rgba(242, 242, 242,0) 50%);
+}
+
+.head .inner .image .three:hover{
+    transform: scale(1.05);
+}
