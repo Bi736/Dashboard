@@ -225,7 +225,12 @@ i#face-three:hover{
     background: rgb(133, 153, 0);
     color:white ;
 }
-
+.logo img {
+    height: 50px;
+    width: 180px;
+    flex-basis: 15%;
+    color: rgb(195, 0, 255);
+}
 
 
 /*--------------------------menu--------------------------*/
@@ -523,6 +528,7 @@ display: flex;
     top: 0;
     left: 0;
 }
+
 .opacty:hover::before{
 width: 300px;
 }
